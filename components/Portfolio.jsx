@@ -29,6 +29,7 @@ export default function Portfolio() {
                   alt={project.name}
                   width="700"
                   height="466"
+                  className="img-fluid"
                 />
               </div>
               <div className="hover-items">
