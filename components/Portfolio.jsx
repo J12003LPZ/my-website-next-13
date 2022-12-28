@@ -18,6 +18,14 @@ export default function Portfolio() {
       </div>
       <p className="port-text">
         Here is some of my work that I've done in various programming languages.
+        My{" "}
+        <Link
+          id="githublink"
+          target="_blank"
+          href="https://github.com/J12003LPZ?tab=repositories"
+        >
+          GitHub Profile.
+        </Link>
       </p>
       <div className="portfolios">
         {allProjects.map((project) => {
